@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+
+    display: block;
+}
+
+.pageWrapper {
+
+    position: relative;
+    width: 400px;
+    height: 800px;
+    border: 1px solid black;
+
+}
+
+/* 头部 */
+.head {
+
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.head-nav {
+
+    display: table-cell;
+}
+
+.head-msg {
+
+    width: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.head-msg h2 {
+
+    line-height: 50px;
+}
+
+/* 主体部分 */
+.body-main {
+
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.showdrugs {
+
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    /* width: 100%;
+    height: 600px; */
+}
+
+.flex-box {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* display: table-cell; */
+    flex-direction: row;  /* 排列方式 */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-between;
+}
+
+.flex-box2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* display: table-cell; */
+    flex-direction: row;
+    /* 排列方式 */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: space-between;
+}
+
+/* 支付成功页面 */
+.payover {
+
+     width: 100%;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     align-content: space-between;
+}
+
+.tips {
+    text-align: center;
+}
+
+.yzm {
+    text-align: center;
+}
+
+.warmtips {
+    text-align: center;
+}
+
+.overpage {
+
+    width: 100%;
+    height: 33.33%;
+}
+/*  */
+
+.column {
+
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+.drugblock-1 {
+
+    width: 150px;
+    height: 180px;
+    /* border: 1px solid black; */
+}
+
+.drug-pic {
+
+    position: relative;
+    width: 100%;
+    height: 60%;
+    border: 1px solid palevioletred;
+}
+
+.drug-info {
+
+    position: relative;
+    vertical-align: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.drug-select {
+
+    position: relative;
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid salmon; */
+}
+.addbtn {
+
+    display: table-cell;
+    width: 44px;
+    height: 44px;
+    border: 3px solid rgb(42, 42, 43);
+    border-radius: 100px;
+}
+
+.numshow {
+
+    display: table-cell;
+    width: 40%;
+    height: 100%;
+    /* border: 0.5px solid skyblue; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+.decbtn {
+
+    display: table-cell;
+    width: 30%;
+    height: 90%;
+    border: 3px solid rgb(42, 42, 43);
+    border-radius: 100px;
+}
+
+/* .addbtn img, .decbtn img {
+
+    width: 100%;
+    height: 100%;
+} */
+
+.toggle-line1 {
+    /* 侧边栏切换箭头 */
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 3px;
+    background: rgba(19, 18, 18, 0.555);
+    margin-top: 50%;
+    width: 100%;
+    top: 0px;
+    transform: rotateZ(0deg);
+    opacity: 1;
+    left: 0px;
+}
+
+.toggle-line2 {
+    /* 侧边栏切换箭头 */
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 3px;
+    background: rgba(19, 18, 18, 0.555);
+    margin-top: -7%;
+    width: 100%;
+    top: 0px;
+    transform: rotateZ(90deg);
+    opacity: 1;
+    left: 0px;
+}
+
+.bottomtab {
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+
+    display: table-cell;
+    
+}
+
+.right {
+
+    display: table-cell;
+    
+}
+/* 提交部分 */
+.subbtn {
+
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
